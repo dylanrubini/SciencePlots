@@ -1,0 +1,61 @@
+# Matplotlib style for Nature journal figures.
+# In general, they advocate for all fonts to be panel labels to be sans serif
+# and all font sizes in a figure to be 7 pt and panel labels to be 8 pt bold.
+
+# Figure size
+figure.figsize : 3.3, 2.5  # max width is 3.5 for single column
+
+# Font Family
+text.usetex: True
+font.family: serif
+font.serif: Computer Modern Roman
+mathtext.fontset: cm
+
+# LaTeX packages
+text.latex.preamble: \usepackage{amsmath}  # Include the amsmath package
+text.latex.preamble: \usepackage{bm}
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : True
+xtick.top : True
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : True
+
+# Font sizes
+axes.labelsize: 10
+xtick.labelsize: 12
+ytick.labelsize: 12
+legend.fontsize: 8
+font.size: 10
+
+axes.labelweight: bold
+figure.labelweight: bold    # weight of the figure label
+
+# Set line widths
+axes.linewidth : 1.0
+grid.linewidth : 1.0
+lines.linewidth : 2.
+lines.markersize: 3
+
+# Remove legend frame
+legend.frameon : True
+legend.fancybox : True
+legend.framealpha : 0.5  # Set the opacity (0.5 for semi-transparent)
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.01  # Use virtually all space when we specify figure dimensions
+
+figure.dpi : 300
