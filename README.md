@@ -12,7 +12,7 @@ Science Plots
 This repo has Matplotlib styles to format your figures for scientific papers, presentations and theses.
 
 <p align="center">
-<img src="https://github.com/garrettj403/SciencePlots/raw/master/examples/figures/fig01.jpg" width="500">
+<img src="https://github.com/garrettj403/SciencePlots/raw/master/examples/figures/fig01a.jpg" width="500">
 </p>
 
 You can find [the full gallery of included styles here](https://github.com/garrettj403/SciencePlots/wiki/Gallery).
@@ -25,6 +25,9 @@ The easiest way to install SciencePlots is by using `pip`:
 ```bash
 # to install the lastest release (from PyPI)
 pip install SciencePlots
+
+# to install the lastest release (using Conda)
+conda install -c conda-forge scienceplots
 
 # to install the latest commit (from GitHub)
 pip install git+https://github.com/garrettj403/SciencePlots
@@ -77,7 +80,7 @@ Examples
 
 The basic ``science`` style is shown below:
 
-<img src="https://github.com/garrettj403/SciencePlots/raw/master/examples/figures/fig01.jpg" width="500">
+<img src="https://github.com/garrettj403/SciencePlots/raw/master/examples/figures/fig01a.jpg" width="500">
 
 It can be cascaded with other styles to fine-tune the appearance. For example, the ``science`` + ``notebook`` styles (intended for Jupyter notebooks):
 
