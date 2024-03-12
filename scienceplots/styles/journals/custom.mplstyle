@@ -12,8 +12,7 @@ font.serif: Computer Modern Roman
 mathtext.fontset: cm
 
 # LaTeX packages
-text.latex.preamble: \usepackage{amsmath}  # Include the amsmath package
-text.latex.preamble: \usepackage{bm}
+text.latex.preamble: \usepackage{amsmath} \usepackage{bm}
 
 # Set x axis
 xtick.direction : in
@@ -41,7 +40,7 @@ legend.fontsize: 8
 font.size: 10
 
 axes.labelweight: bold
-figure.labelweight: bold    # weight of the figure label
+# figure.labelweight: bold    # weight of the figure label
 
 # Set line widths
 axes.linewidth : 1.0
