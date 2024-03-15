@@ -46,12 +46,14 @@ grid.linewidth: 1.0     # Width of the grid lines
 grid.alpha: 0.15        # Transparency of the grid lines
 
 # Remove legend frame
-legend.frameon : True
-legend.fancybox : True
-legend.framealpha : 0.5  # Set the opacity (0.5 for semi-transparent)
+legend.frameon:       True     # if True, draw the legend on a background patch
+legend.framealpha:    1.0      # legend patch transparency
+legend.facecolor:     white  # inherit from axes.facecolor; or color spec
+legend.edgecolor:     white      # background patch boundary color
+legend.fancybox:      False     # if True, use a rounded box for the
 
 # Always save as 'tight'
-# savefig.bbox : tight
+savefig.bbox : tight
 
 # LaTeX packages
 text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{bm}
