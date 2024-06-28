@@ -29,9 +29,15 @@ legend.fontsize: 10
 font.size: 10
 
 # Font Family
-font.family: serif
-font.serif: Computer Modern
-mathtext.fontset: cm
+font.family: sans-serif
+font.sans-serif: Computer Modern Sans
+
+# Configure mathtext to use the Computer Modern Sans Serif font
+mathtext.fontset: custom
+mathtext.rm: cmss
+mathtext.it: cmss:italic
+mathtext.bf: cmss:bold
+mathtext.cal: cmss:cal
 
 # Set line widths
 axes.linewidth : 1.5
@@ -56,4 +62,4 @@ legend.fancybox:      False     # if True, use a rounded box for the
 savefig.bbox : tight
 
 # LaTeX packages
-text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{bm}
+text.latex.preamble : \usepackage{amsmath} \usepackage{amssymb} \usepackage{bm} \usepackage{sfmath}
