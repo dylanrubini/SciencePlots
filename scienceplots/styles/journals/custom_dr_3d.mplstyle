@@ -1,7 +1,7 @@
 # Matplotlib style for Dphil Thesis (by Dylan Rubini)
 
 # Figure size
-figure.figsize : 2.6, 2.6  # max width is 3.5 for single column
+#figure.figsize : 2.6, 2.6  # max width is 3.5 for single column
 
 # Set x axis
 xtick.direction : in
