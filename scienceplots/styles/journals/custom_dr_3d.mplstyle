@@ -35,7 +35,7 @@ mathtext.fontset: custom
 mathtext.rm: cmss
 mathtext.it: cmss:italic
 mathtext.bf: cmss:bold
-mathtext.cal: cmss:cal
+mathtext.cal: cmss
 
 # Set line widths
 axes.linewidth : 1.5
