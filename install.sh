@@ -6,6 +6,11 @@ pip uninstall scienceplots
 pip install .
 
 micromamba deactivate
+micromamba activate tf-gpu
+pip uninstall scienceplots
+pip install .
+
+micromamba deactivate
 micromamba activate pfr-env
 pip uninstall scienceplots
 pip install .
